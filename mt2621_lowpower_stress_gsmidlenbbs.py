@@ -144,6 +144,7 @@ def gsmidlenbbs_setting(ser):
     executeAtCommand(ser,"AT*MUSO=0","OK")
     executeAtCommand(ser,"AT+MSMODE=1","OK")
     time.sleep(1)
+    print("1")
     executeAtCommand(ser,"AT+MSMODE=0","OK")
     '''
     for i in range(60):
